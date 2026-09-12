@@ -1,0 +1,3 @@
+state x = 1;
+@
+print x;

@@ -1,0 +1,14 @@
+state count = 3;
+state ratio = 20.5;
+state status = "ready";
+state active = true;
+count = count + 1;
+ratio = ratio / 2.0;
+if (active && count >= 4) {
+    print status;
+}
+else {
+    print ratio;
+}
+action = "checked";
+execute action;

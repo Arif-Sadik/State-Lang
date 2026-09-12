@@ -1,0 +1,2 @@
+state temperature = 45;
+execute temperature;

@@ -1,0 +1,5 @@
+state count = 0;
+input count;
+print count;
+action = "input-read";
+execute action;

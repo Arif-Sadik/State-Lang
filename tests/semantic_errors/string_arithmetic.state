@@ -1,0 +1,2 @@
+state name = "room";
+state bad = name + 5;

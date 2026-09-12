@@ -1,0 +1,10 @@
+state temperature = 45;
+
+if (temperature > 40) {
+    action = "cool";
+}
+else {
+    action = "continue";
+}
+
+execute action;

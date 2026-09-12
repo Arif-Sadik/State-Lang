@@ -1,0 +1,16 @@
+state count = 0;
+state active = true;
+
+while (count < 3) {
+    count = count + 1;
+}
+
+if (active && count == 3) {
+    action = "loop-complete";
+}
+else {
+    action = "loop-failed";
+}
+
+print count;
+execute action;

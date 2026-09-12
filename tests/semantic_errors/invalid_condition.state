@@ -1,0 +1,4 @@
+state name = "room";
+if (name) {
+    print name;
+}
